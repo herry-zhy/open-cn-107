@@ -1860,7 +1860,7 @@ def openos():
         def jh():
             global z
             n = z.get()
-            if n == '1':
+            if n == '1302-1540-4029-182-645':
                 j = tk.Label(d,text='已激活',width=60)
                 j.place(x=300,y=200)
                 d.destroy()
