@@ -1875,7 +1875,8 @@ def openos():
                 op.write('1302-1540-4029-182-645')
                 op.close()
                 b.mainloop()
-
+            elif n != ' 1302-1540-4029-182-64':
+                    print('error')
 
         b = tk.Button(d,text='取消',command=gb,width=10,height=1)
         b.place(x=1100,y=650)
